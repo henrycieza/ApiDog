@@ -1,0 +1,30 @@
+#container{
+        display: flex;
+        flex-direction: column;
+}
+#list-group-item li{
+    cursor: pointer;
+}
+.select-muestra-perro{
+        display: flex;
+        justify-content: center;
+}
+.select-muestra-perro h3{
+    margin-right: 5px;
+}
+#img{
+    text-align: center;
+    background-color: rgba(154,157,165,0.2);
+    width: 1110px;
+}
+.row-cabecera{
+   /* justify-content: center !important;*/
+    
+    margin-top: 20px;
+    background-color: #f34565;
+    color: #fff;
+    text-align: center;
+}
+#selected-breed{
+    text-align: center;
+}

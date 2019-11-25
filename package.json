@@ -1,0 +1,16 @@
+{
+  "name": "proyecto2",
+  "version": "1.0.0",
+  "description": "proyecto jquery",
+  "main": "server.js",
+  "author": "henry cieza",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server.js",
+    "watch": "nodemon --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "yargs": "14.2.0"
+  }
+}
